@@ -5,13 +5,14 @@ import SingleReview from '../SingleReview/SingleReview';
 
 const CustomerReviews = () => {
     const [reviews, setReviews] = useReviews();
+    const sliced = reviews.slice(0, 3);
     // console.log(reviews);
     return (
         <div>
             <h1 className='text-5xl font-semibold'>Customer Reviews(3)</h1>
             <div className='single-review md:ml-60 mt-12'>
                 {
-                    reviews.map(review => <SingleReview key={review.id} review={review}></SingleReview>)
+                    sliced.map(review => <SingleReview key={review.id} review={review}></SingleReview>)
                 }
             </div>
             <Link to="/reviews">
