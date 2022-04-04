@@ -1,0 +1,38 @@
+[
+    {
+      "id": "1",
+      "picture": "https://img.freepik.com/free-photo/confident-attractive-caucasian-guy-beige-pullon-smiling-broadly-while-standing-against-gray_176420-44508.jpg?t=st=1649079757~exp=1649080357~hmac=84f4ef30aaabfacf22be69a517c002f7f9f0fa5fe36d418a400d0baf5b1fbe49&w=996",
+      "review": "It is my first bike and as a person who was upgrading from an Active, this felt just perfect for me...It is a Beginner friendly machine...",
+      "name": "Daniyel Ramos"
+    },
+    {
+      "id": "2",
+      "picture": "https://img.freepik.com/free-photo/extreme-motorcycle-riding-summer_7502-8833.jpg?w=996&t=st=1649080080~exp=1649080680~hmac=0cf246a52a03b8788ef1cc6b0c0fe1a1f25838be32ac335597fb789642c9fb3c",
+      "review": "It's the best naked bike I could think of in this price range but it's expensive based on it's service charge.",
+      "name": "Joggadi Parua"
+    },
+    {
+      "id": "3",
+      "picture": "https://img.freepik.com/free-photo/brutal-man-with-bike_1303-21917.jpg?w=996&t=st=1649080082~exp=1649080682~hmac=4a136cbf24f6aa526d720d798c79b80b4b28abcf83a779562ed85613cf5047cb",
+      "review": "I like the stability and feel. Ride at a high speed of 143 kmph. Brakes are amazing. Safety features are a high. Handle bar grip is good.",
+      "name": "Villiars Don"
+    },
+    {
+      "id": "4",
+      "picture": "https://img.freepik.com/free-photo/rider-motorbike-road-riding-having-fun-driving-empty-road_1150-10700.jpg?w=996&t=st=1649080084~exp=1649080684~hmac=052310818015373c7f24c34d69c79112a9cce887af2925e8cb64287db30cb020",
+      "review": "I got a chance to ride this bike from a friend, firstly the seating position was great, and then engine have a good power.",
+      "name": "Saybin Brabo"
+    },
+    {
+      "id": "5",
+      "picture": "https://img.freepik.com/free-photo/portrait-afro-american-man-taking-off-helmet_171337-10264.jpg?w=996&t=st=1649080102~exp=1649080702~hmac=2a933a0d6dcd21b67530fefe61c9206999e4f139df245fc665d596d14432826c",
+      "review": "Its riding experience is so smooth as butter. It is a proper racing machine. Looks are incredible and performance is also touching",
+      "name": "Finch Tikka"
+    },
+    {
+      "id": "6",
+      "picture": "https://img.freepik.com/free-photo/happy-bearded-young-man-looks-with-joyful-expression-has-friendly-smile-wears-yellow-sweater-red-hat_295783-1388.jpg?w=996&t=st=1649080124~exp=1649080724~hmac=67286ad8563014006f705fe8e51f80d947f82355943d10b86eab8530cb78a801",
+      "review": "The buying experience was very good. People at bmw really help you to feel comfortable and suggest the way how you can afford bikes.",
+      "name": "Butler Butta"
+    }
+  ]
