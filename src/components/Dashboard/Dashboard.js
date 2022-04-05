@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Area, AreaChart, Bar, BarChart, CartesianGrid, Legend, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 import useData from '../../Hooks/useData';
 import './Dashboard.css';
@@ -7,7 +8,7 @@ const Dashboard = () => {
     const [d, setData] = useData();
     console.log(d);
     return (
-        <div className='w-full h-96 mt-20'>
+        <div className='w-full h-96 mt-10'>
             <h1 className='text-2xl text-blue-400 p-5'>Investment VS Revenue</h1>
             <ResponsiveContainer width="100%" height="100%">
                 <LineChart
@@ -70,9 +71,10 @@ const Dashboard = () => {
                     <Area type="monotone" dataKey="amt" stackId="1" stroke="#ffc658" fill="#ffc658" />
                 </AreaChart>
             </ResponsiveContainer>
-
-            <h1 className='text-2xl text-blue-400 p-5'>Investment VS Revenue</h1>
-
+            
+            <Link to="/home">
+                <button className='border-solid border-0 rounded py-2 m-4 px-4 bg-cyan-200'>Back to home</button>
+            </Link>
         </div>
     );
 };
