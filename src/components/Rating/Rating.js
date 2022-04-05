@@ -4,7 +4,7 @@ import React from 'react';
 
 const Rating = () => {
     return (
-        <FontAwesomeIcon icon={faStar}></FontAwesomeIcon>
+        <FontAwesomeIcon className='text-yellow-400' icon={faStar}></FontAwesomeIcon>
     );
 };
 

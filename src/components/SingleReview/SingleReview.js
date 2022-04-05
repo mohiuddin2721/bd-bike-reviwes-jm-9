@@ -9,7 +9,6 @@ const SingleReview = (props) => {
     const arr = [];
     for (let i = 1; i <= numberRating; i++) {
         arr.push(i);
-
     }
 
     return (
