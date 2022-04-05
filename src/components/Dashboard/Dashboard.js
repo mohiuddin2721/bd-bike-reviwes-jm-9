@@ -1,5 +1,5 @@
 import React from 'react';
-import { Bar, BarChart, CartesianGrid, Legend, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
+import { Area, AreaChart, Bar, BarChart, CartesianGrid, Legend, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 import useData from '../../Hooks/useData';
 import './Dashboard.css';
 
@@ -8,6 +8,7 @@ const Dashboard = () => {
     console.log(d);
     return (
         <div className='w-full h-96 mt-20'>
+            <h1 className='text-2xl text-blue-400 p-5'>Investment VS Revenue</h1>
             <ResponsiveContainer width="100%" height="100%">
                 <LineChart
                     data={d}
@@ -28,6 +29,7 @@ const Dashboard = () => {
                 </LineChart>
             </ResponsiveContainer>
 
+            <h1 className='text-2xl text-blue-400 p-5'>Investment VS Revenue</h1>
             <ResponsiveContainer width="100%" height="100%">
                 <BarChart
                     data={d}
@@ -47,6 +49,30 @@ const Dashboard = () => {
                     <Bar dataKey="revenue" stackId="a" fill="#82ca9d" />
                 </BarChart>
             </ResponsiveContainer>
+
+            <h1 className='text-2xl text-blue-400 p-5'>Investment VS Revenue</h1>
+            <ResponsiveContainer width="100%" height="100%">
+                <AreaChart
+                    data={d}
+                    margin={{
+                        top: 10,
+                        right: 30,
+                        left: 0,
+                        bottom: 0,
+                    }}
+                >
+                    <CartesianGrid strokeDasharray="3 3" />
+                    <XAxis dataKey="month" />
+                    <YAxis dataKey="investment" />
+                    <Tooltip />
+                    <Area type="monotone" dataKey="sell" stackId="1" stroke="#8884d8" fill="#8884d8" />
+                    <Area type="monotone" dataKey="revenue" stackId="1" stroke="#82ca9d" fill="#82ca9d" />
+                    <Area type="monotone" dataKey="amt" stackId="1" stroke="#ffc658" fill="#ffc658" />
+                </AreaChart>
+            </ResponsiveContainer>
+
+            <h1 className='text-2xl text-blue-400 p-5'>Investment VS Revenue</h1>
+
         </div>
     );
 };
